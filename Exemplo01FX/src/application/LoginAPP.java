@@ -65,11 +65,11 @@ public class LoginAPP extends Application {
 	}
 
 	private void logar() {
-		if ("123456".equals(txSenha.getText()) && "alunos".equals(txLogin.getText())) {
+		if ("654321".equals(txSenha.getText()) && "alunos".equals(txLogin.getText())) {
 			Alert alert = new Alert(AlertType.INFORMATION, "Login realizado", ButtonType.CLOSE);
 			alert.show();
 		} else {
-			Alert alert = new Alert(AlertType.ERROR, "Usuario ou seja invalido", ButtonType.CLOSE);
+			Alert alert = new Alert(AlertType.ERROR, "Usuário ou senha inválido", ButtonType.CLOSE);
 			alert.show();
 		}
 	}
